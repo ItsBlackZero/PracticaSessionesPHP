@@ -1,0 +1,54 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedorProductosPrincipal{
+    display: flex;
+}
+.contenedorProductos{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #5e88d7;
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 250px;
+    align-items: center;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+
+/*
+            
+            <div class="contenedorProductos">
+                <h2>Pc Gamer</h2>
+                <input type="hidden" name="nombreProducto" value="Pc Gamer">
+                <h4>Pc gamer de gama alta</h4>
+                <img src="img/pc.jpg" alt="pc">
+                <select name="cantidad" id="cantidad"> 
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <input type="submit" name="submit" value="Poner en carrito">
+            </div>
+            <div class="contenedorProductos">
+                <h2>Mouse Gamer</h2>
+                <input type="hidden" name="nombreProducto" value="Mouse Gamer">
+                <h4>El mejor mouse para jugar</h4>
+                <img src="img/mouse.webp" alt="mouse">
+                <select name="cantidad" id="cantidad"> 
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <input type="submit" name="enviar" value="Poner en carrito">
+            </div>
+            */
